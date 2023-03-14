@@ -1,0 +1,12 @@
+.crud_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 20px;
+}
+.body,.head{
+    width: 1000px;
+}

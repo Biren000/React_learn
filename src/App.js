@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Todo from "./components/todo/Todo";
+import "./App.css";
+import Crud from "./components/crud/Crud";
+import Cruud from "./components/crud2/Cruud";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Search from "./components/searching/Search";
+import Sort from "./components/sorting/Sort";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Todo /> */}
+      {/* <Crud /> */}
+      <Cruud />
+      {/* <Search /> */}
+      {/* <Sort /> */}
+    </>
   );
 }
 
